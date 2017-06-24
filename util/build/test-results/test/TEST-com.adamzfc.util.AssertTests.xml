@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.adamzfc.util.AssertTests" tests="100" skipped="0" failures="1" errors="0" timestamp="2017-06-24T08:31:35" hostname="DESKTOP-G664R1O" time="0.209">
+  <properties/>
+  <testcase name="hasLengthWithEmptyStringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.029"/>
+  <testcase name="isAssignableWithNullSupertype" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="stateWithMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="stateWithFalseExpressionAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithTypeMismatchAndCustomMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithEmptyString" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="noNullElementsWithNullElementsAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="hasTextWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="stateWithFalseExpressionAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="noNullElementsWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="stateWithFalseExpression" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithNullSubtypeAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isNullWithNonNullObjectAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndCustomMessageWithSeparator" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithTypeMismatchAndCustomMessageWithSpace" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyMapWithNullMapAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.08"/>
+  <testcase name="isNullWithMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithNull" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notNullWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="noNullElementsWithNullArrayAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="noNullElementsWithNullElementsAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isInstanceOf" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithNullAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithEmptyString" classname="com.adamzfc.util.AssertTests" time="0.002">
+    <failure message="java.lang.AssertionError: Expected test to throw (an instance of java.lang.IllegalArgumentException and exception with message a string containing &quot;enigma&quot;)" type="java.lang.AssertionError">java.lang.AssertionError: Expected test to throw (an instance of java.lang.IllegalArgumentException and exception with message a string containing &quot;enigma&quot;)
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.rules.ExpectedException.failDueToMissingException(ExpectedException.java:184)
+	at org.junit.rules.ExpectedException.access$100(ExpectedException.java:85)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:170)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy3.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:377)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+  </testcase>
+  <testcase name="notEmptyCollectionWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignable" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyArrayWithEmptyArrayAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.054"/>
+  <testcase name="doesNotContainWithNullSearchStringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithEmptyCollectionAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyArrayWithEmptyArrayAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isNullWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyCollectionWithEmptyCollection" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithEmptyStringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithEmptyCollectionAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithWhitespaceOnly" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLength" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithNullSearchStringAndNullSubstringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isNullWithNonNullObjectAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="doesNotContainWithNullSubstringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notNullWithMessage" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isAssignableWithTypeMismatchAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithNullSearchStringAndNullSubstring" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithNullTypeAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="doesNotContainWithEmptySubstring" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyMapWithEmptyMap" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyArrayWithNullArray" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndNullMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithNullSearchString" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithNull" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="noNullElementsWithEmptyArray" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="state" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithNullAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndCustomMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isTrueWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyMapWithNullMap" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isTrueWithFalse" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notNullWithNullAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="hasLengthWithNullAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithNullSubtype" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithNullCollection" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithNullAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="hasText" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="stateWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollectionWithNullCollectionAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithNullInstanceAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyArrayWithEmptyArray" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithSubstringPresentInSearchStringAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="hasTextWithWhitespaceOnlyAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyCollection" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="isTrueWithMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithTypeMismatchAndCustomMessageWithSpace" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyArrayWithNullArrayAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="stateWithFalseExpressionAndMessage" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="noNullElementsWithEmptyArrayAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notNullWithNullAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isTrueWithFalseAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithNullSupertypeAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isTrueWithFalseAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyMap" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithTypeMismatchAndCustomMessageWithSeparator" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="doesNotContainWithNullSubstring" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithTypeMismatchAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyArrayWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyMapWithEmptyMapAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasTextWithWhitespaceOnly" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyMapWithEmptyMapAndNullMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isAssignableWithTypeMismatchAndNullMessage" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithNullType" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="isInstanceOfWithNullInstance" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="noNullElements" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="hasLengthWithWhitespaceOnlyAndMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.001"/>
+  <testcase name="notEmptyMapWithMessageSupplier" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <testcase name="notEmptyArray" classname="com.adamzfc.util.AssertTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

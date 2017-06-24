@@ -16,8 +16,7 @@
 
 package com.adamzfc.util;
 
-import org.springframework.lang.Nullable;
-
+import javax.annotation.Nullable;
 import java.beans.Introspector;
 import java.lang.reflect.*;
 import java.util.*;
