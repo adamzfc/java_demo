@@ -2,6 +2,7 @@ group 'com.adamzfc'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'maven-publish'
 
 sourceCompatibility = 1.8
 
@@ -12,4 +13,15 @@ repositories {
 dependencies {
     compile group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.adamzfc'
+            artifactId 'util'
+            version '0.1.0'
+            from components.java
+        }
+    }
 }
